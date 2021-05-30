@@ -1,11 +1,9 @@
-# This is a sample Python script.
+# Author : Varun V T
+# Date created: 30 May 2021
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import pandas as pd
-import requests
 from datetime import date, datetime, timedelta
 import smtplib
 import json
@@ -135,7 +133,6 @@ def send_email(email_response, email_address=None):
         print(e)
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     # BBMP 294
     # vaccine_type = "COVISHIELD"
@@ -158,4 +155,3 @@ if __name__ == '__main__':
             print("Continuing....")
             time.sleep(360)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
